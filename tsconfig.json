@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+      "baseUrl": "./src",
+      "paths": {
+        "@components/*": ["components/*"],
+        "@hooks/*": ["hooks/*"],
+        "@constants/*": ["constants/*"],
+        "@type/*": ["types/*"],
+        "@utils/*": ["utils/*"],
+        "@mocks/*": ["../__mocks__/*"],
+        "@root/*": ["../*"]
+      },
+      "target": "ES2020",
+      "module": "esnext",
+      "outDir": "./dist",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "lib": ["ES2020", "DOM"],
+      "resolveJsonModule": true,
+      "declaration": true,
+      "jsx": "react",
+      "declarationMap": true,
+      "moduleResolution": "node"
+    },
+    "include": ["src/**/*", "__tests__/Lightbox.test.tsx"],
+    "exclude": ["node_modules", "**/*.test.ts", "dist"]
+  }
