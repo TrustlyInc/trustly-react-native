@@ -1,0 +1,22 @@
+# Android
+.idea/
+
+# Codegen
+generated/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Node
+node_modules/
+
+# Tests
+coverage/
+
+# Dist
+dist/
+
+# Package
+package-lock.json
+*.tgz
