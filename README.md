@@ -1,34 +1,35 @@
 # Trustly React Native SDK
 
-> [!WARNING]  
-> Work in progress, not yet complete and unreleased.
-
-Note: The SDK package will be published in an NPM repository later. For now, please manually clone this git repository.
+The official Trustly React Native SDK for integrating Trustly payment solutions into your React Native applications.
 
 ## Getting Started
 
 ### Requirements
 
 - **Node** 20
+- **React** 18.3.1 or higher
+- **React Native** 0.76.9 or higher
 
 ### Installation
 
-Update the references and dependencies:
+Install the package from NPM:
 
 ```shell
-npm install
+npm install @trustlyinc/trustly-react-native
 ```
 
-Use the command below to generate a new package of the SDK:
+Or using yarn:
 
 ```shell
-npm pack
+yarn add @trustlyinc/trustly-react-native
 ```
 
-After that a new package will appear inside the root folder, with the current name:
+### Peer Dependencies
 
-```
-trustly-react-native-1.0.0.tgz
+The SDK requires the following peer dependencies to be installed in your project:
+
+```shell
+npm install react react-native react-native-inappbrowser-reborn react-native-webview @react-native-async-storage/async-storage
 ```
 
 ## Usage
