@@ -1,5 +1,5 @@
 {
-  "name": "trustly-react-native",
+  "name": "@trustlyinc/trustly-react-native",
   "version": "1.0.0",
   "description": "Trustly React Native SDK",
   "homepage": "https://github.com/TrustlyInc/trustly-react-native",
